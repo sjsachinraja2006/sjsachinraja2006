@@ -1,0 +1,82 @@
+public class ContainerWithMostWater {
+    public int maxArea(int[] height) {
+        int left = 0, right = height.length - 1;
+        int maxArea = 0;
+        
+        while (left < right) {
+            int width = right - left;
+            int area = Math.min(height[left], height[right]) * width;
+            maxArea = Math.max(maxArea, area);
+            
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+        
+        return maxArea;
+    }
+
+    public static void main(String[] args) {
+        ContainerWithMostWater solution = new ContainerWithMostWater();
+        int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println(solution.maxArea(height));
+    }
+}
+
+3
+import java.util.ArrayList;
+import java.util.List;
+
+public class TextJustification {
+    public List<String> fullJustify(String[] words, int maxWidth) {
+        List<String> res = new ArrayList<>();
+        int index = 0;
+        
+        while (index < words.length) {
+            int totalChars = words[index].length();
+            int last = index + 1;
+            
+            while (last < words.length) {
+                if (totalChars + 1 + words[last].length() > maxWidth) break;
+                totalChars += 1 + words[last].length();
+                last++;
+            }
+            
+            StringBuilder sb = new StringBuilder();
+            sb.append(words[index]);
+            int diff = last - index - 1;
+            
+            if (last == words.length || diff == 0) {
+                for (int i = index + 1; i < last; i++) {
+                    sb.append(" ").append(words[i]);
+                }
+                for (int i = sb.length(); i < maxWidth; i++) {
+                    sb.append(" ");
+                }
+            } else {
+                int spaces = (maxWidth - totalChars) / diff;
+                int r = (maxWidth - totalChars) % diff;
+                for (int i = index + 1; i < last; i++) {
+                    for (int k = 0; k <= (spaces + (i - index <= r ? 1 : 0)); k++) {
+                        sb.append(" ");
+                    }
+                    sb.append(words[i]);
+                }
+            }
+            res.add(sb.toString());
+            index = last;
+        }
+        
+        return res;
+    }
+
+    public static void main(String[] args) {
+        TextJustification tj = new TextJustification();
+        String[] words = {"This", "is", "an", "example", "of", "text", "justification."};
+        int maxWidth = 16;
+        List<String> output = tj.fullJustify(words, maxWidth);
+        for (String line : output) {
+            System.out.println(line);
+        }
