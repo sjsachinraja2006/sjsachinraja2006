@@ -52,6 +52,41 @@ class Solution {
     }
 }
 
+3 https://leetcode.com/problems/count-nice-pairs-in-an-array/
+
+import java.util.HashMap;
+
+public class NicePairsCounter {
+    private static final int MOD = 1000000007;
+    private static int rev(int x) {
+        int reversed = 0;
+        while (x > 0) {
+            reversed = reversed * 10 + x % 10;
+            x /= 10;
+        }
+        return reversed;
+    }
+
+    public static int countNicePairs(int[] nums) {
+        HashMap<Integer, Integer> countMap = new HashMap<>();
+        long nicePairCount = 0;
+        for (int num : nums) {
+            int value = num - rev(num);
+            countMap.put(value, countMap.getOrDefault(value, 0) + 1);
+        }
+        for (int count : countMap.values()) {
+            if (count > 1) {
+                nicePairCount = (nicePairCount + (long) count * (count - 1) / 2) % MOD;
+            }
+        }
+
+        return (int) nicePairCount;
+    }
+    public static void main(String[] args) {
+        int[] nums = {123, 321, 120, 210};
+        System.out.println(countNicePairs(nums)); 
+    }
+}
 
 
 
