@@ -1,1 +1,102 @@
+DATE:10/9/24
+
+
+Minimum Add to Make Parentheses Valid
+Coding:
+      class Solution {
+    public int minAddToMakeValid(String s) {
+    int open =0, mismatch=0;
+    for(int i=0; i<s.length(); i++)
+    {
+     if(s.charAt(i)=='(')
+     open++;
+     else
+     {
+        if(open>0)
+        open--;
+        else
+        mismatch++;
+     }
+    } 
+     return open+mismatch;   
+    }
+}
+
+2
+Add Two Numbers
+coding:
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode tail = dummyHead;
+        int carry = 0;
+
+        while (l1 != null || l2 != null || carry != 0) {
+            int digit1 = (l1 != null) ? l1.val : 0;
+            int digit2 = (l2 != null) ? l2.val : 0;
+
+            int sum = digit1 + digit2 + carry;
+            int digit = sum % 10;
+            carry = sum / 10;
+
+            ListNode newNode = new ListNode(digit);
+            tail.next = newNode;
+            tail = tail.next;
+
+            l1 = (l1 != null) ? l1.next : null;
+            l2 = (l2 != null) ? l2.next : null;
+        }
+
+        ListNode result = dummyHead.next;
+        dummyHead.next = null;
+        return result;
+    }
+}
+3
+Remove Element
+coding:
+class Solution {
+
+    public int removeElement(int[] nums, int val) {
+
+        int index = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] != val) {
+
+                nums[index] = nums[i];
+
+                index++;
+
+            }
+
+        }
+
+        return index;
+
+    }
+4]
+Palindrome Number
+CODING:
+class Solution {
+    public boolean isPalindrome(int x) {
+        if (x < 0) {
+            return false;
+        }
+
+        long reversed = 0;
+        long temp = x;
+
+        while (temp != 0) {
+            int digit = (int) (temp % 10);
+            reversed = reversed * 10 + digit;
+            temp /= 10;
+        }
+
+        return (reversed == x);
+    }
+}
+
+
 
