@@ -65,27 +65,59 @@
 <img src="https://skillicons.dev/icons?i=aws,git,github,vscode,figma" />
 </p>
 
+
 ---
+## 🚀 Current Project
 
-## 🚀 Current Projects
+### 🎨 PixelNest — AI-Powered Creative Collaboration Platform
 
-### 🌾 CropProof AI
+**PixelNest** is an AI-powered creative collaboration platform designed for **students, freelancers, developers, designers, artists, and creators** to connect, collaborate, showcase their skills, and build meaningful projects together.
 
-An AI-powered agriculture and insurance solution that helps farmers document crop conditions using geo-tagged and timestamped images.
+> **Connect. Collaborate. Create. 🚀**
 
-**Technologies:**
+### ✨ Key Features
 
-- Flutter
-- FastAPI
-- Python
-- PostgreSQL / PostGIS
-- Firebase
-- OpenCV
-- YOLOv8
-- PyTorch
-- Google Maps / OpenStreetMap
-- OpenWeather API
-- ReportLab
+- 👤 User profiles & skill showcase
+- 🎨 Portfolio showcase
+- 🤝 Teammate discovery & matching
+- 📋 Project marketplace
+- 💬 Real-time collaboration
+- 📊 Kanban-based project management
+- 📁 File sharing & project resources
+- 📅 Meetings and task management
+- 🔔 Notifications
+- 🤖 AI-powered assistance
+- 🧑‍💻 Community & creator networking
+
+### 🤖 AI Features
+
+- 🧠 AI Team Matching
+- 💡 AI Project Generation
+- 📄 AI Resume Analyzer
+- 🎨 AI UI Generator
+- 📝 AI Proposal Writer
+- 📅 AI Sprint Planner
+- 🐛 AI Bug Assistant
+- 📚 AI Learning Roadmap
+
+### 🛠️ Tech Stack
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,html,css,js,java,spring,mysql,git,github,figma" />
+</p>
+
+**Frontend:** React.js, HTML, CSS, JavaScript  
+**Backend:** Java, Spring Boot  
+**Database:** MySQL  
+**Security:** Spring Security, JWT  
+**AI:** LLM / AI APIs  
+**Tools:** Git, GitHub, Figma, Postman, VS Code
+
+### 🎯 Project Goal
+
+To create a single platform where creators can **find the right teammates, collaborate on projects, showcase their work, and use AI to improve their creative workflow.**
+
+**Status:** 🚧 Currently in Development
 
 ---
 
@@ -102,46 +134,39 @@ A secure digital wallet web application designed for managing users, profiles an
 
 ---
 
-### 🐔 Bio-Composite Poultry Tile
-
-A sustainable poultry shed tile prototype using agricultural waste materials such as coconut coir and hemp fiber.
-
-**Technologies / Materials:**
-
-- Coconut coir fiber
-- Hemp fiber / hurd
-- Bio-based binder
-- CNC mold
-- Hydraulic hot press
-- Compression testing
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight" />
+</a>
 
 </p>
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" />
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YOUR_USERNAME&theme=tokyonight" />
+</a>
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YOUR_USERNAME&theme=tokyonight" />
+</a>
 
 </p>
-
----
-
-## 💻 Most Used Languages
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YOUR_USERNAME&theme=tokyonight" />
+</a>
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YOUR_USERNAME&theme=tokyonight&utcOffset=5.5" />
+</a>
 
 </p>
-
----
 
 ## 🧰 Tools & Technologies
 
