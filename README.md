@@ -27,11 +27,11 @@
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white"/>
 </a>
 
-<a href="YOUR_LINKEDIN_LINK">
+<a href="https://www.linkedin.com/in/sachinraja-s-j-93b0792b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/sjsachinraja2006">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -133,40 +133,6 @@ A secure digital wallet web application designed for managing users, profiles an
 - MySQL
 
 ---
-
-## 📊 GitHub Stats
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight" />
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YOUR_USERNAME&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YOUR_USERNAME&theme=tokyonight" />
-</a>
-
-</p>
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YOUR_USERNAME&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YOUR_USERNAME&theme=tokyonight&utcOffset=5.5" />
-</a>
-
-</p>
 
 ## 🧰 Tools & Technologies
 
