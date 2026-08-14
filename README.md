@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Miyamura-san!
+# 👋 Hi, I'm Sachin Raja S J!
 
 🎓 Computer Science Engineering Student  
 💻 Full Stack Developer | Java Developer | Cloud & AI Enthusiast  
